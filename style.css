@@ -1,0 +1,807 @@
+
+@import url("./fonts.css");
+*{
+    font-family: "Montserrat";
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+p{
+    font-family: 'Corm';
+    font-size: 30px;
+}
+
+
+body{
+    background-image: url(/assets/img/background.jpg);
+    
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
+
+
+.container {
+    margin: 0 auto;
+    width: 1200px;  
+    height: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+
+.section-zagolovki .zagolovki1 {
+    display: flex;
+    justify-content: space-between;
+    width: 270px;
+    gap: 8px;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.section-zagolovki .zagolovki1 a {
+    color: rgb(97, 82, 72);
+    font-weight: 500;
+}
+
+
+.section-zagolovki .zagolovki a {
+    color: rgb(97, 82, 72);
+    font-weight: 500;
+}
+
+
+.section-zagolovki .zagolovki{
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
+    color: rgb(97, 82, 72);
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+
+.section-zagolovki .MiMilo .logo{
+    font-size: 25px;
+    color: rgba(97, 82, 72, 0.87);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 550;
+
+}
+
+.section-photo .container{
+    width: 1300px;
+    height: 900px;
+    display: flex;
+}
+
+.section-photo p{
+  font-size: 80px;
+  color: rgb(97, 82, 72);
+  font-family:"Corm" ;
+  position: relative;
+  bottom: 310px;
+  left: 290px;
+  z-index: 1000;
+}
+
+.section-photo .container .first-photo{
+    display: flex;
+    justify-content: start;
+    align-content: center;
+    width: 220px;
+    height: 220px;
+    position: relative;
+    left: 550px;     
+}
+.section-photo .second-photo{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 100px;
+}
+.section-photo .second-photo .kart1{
+    position: relative;
+    bottom: 60px;
+    right: 200px; 
+}
+
+.section-photo .second-photo .kart2{
+    position: relative;
+    right: 200px;
+    bottom: 60px;
+    height: 700px;
+    width: 600px;
+}
+.section-photo .sign{
+    position: relative;
+    right: 360px;
+    bottom: 20px;
+    opacity: 0.25;
+}
+.section-citata{
+    height: 300px;
+}
+.section-citata .container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 50px;
+}
+.section-citata .girl{
+    position: relative;
+    right: 50px;
+    bottom: 70px;
+    opacity: 1;
+}
+.section-citata .text{
+    font-size: 35px; 
+    color: rgb(97, 82, 72);
+    font-family: "Corm";
+
+}
+.section-citata .zhir{
+    font-weight: 650;
+    color: rgb(97, 82, 72);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.section-citata .text pre{
+    font-size: 35px; 
+    color: rgb(97, 82, 72);
+    font-family: "Corm";
+}
+.section-coll{
+height: 800px;   
+}
+.section-coll .soap img{
+    height: 300px;
+    width: 300px;
+}
+.section-coll .line{
+    display: flex;
+    justify-content: start;
+    height: 2px;
+    width: 60px;
+    font-size: 2px; 
+    background-color: rgb(97, 82, 72); 
+    margin-top: 15px;
+}
+.section-coll .tovar{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+
+}
+.section-coll .container .text{
+   display: flex;
+  font-size: 17px;
+  font-family: "Montserrat";
+  color: rgb(97, 82, 72);   
+  text-transform: uppercase;
+}
+
+.section-coll .zagolovok{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    font-size: 30px;
+    position: relative;
+    left: 140px;
+}
+.section-coll .soap{
+    display: flex;
+    justify-content: start;
+    font-family: "Montserrat";
+}
+
+
+.section-coll .tovar .price{
+    display: flex;
+    justify-content: start;
+    font-family: "Montserrat";
+    font-size: 20px;
+    color: rgb(97, 82, 72);  
+    font-weight: 450;
+    font-size: 18px;
+}
+
+
+.section-coll .soap .description{
+    display: flex;
+    font-family: "Montserrat";
+    width: 80px;
+    color: rgb(97, 82, 72); 
+    font-size: 18px;
+    position: relative; 
+    justify-content:baseline;
+    top: 300px;
+    right: 300px;
+    gap: 3px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+
+.section-coll .tovar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 320px;
+    gap: 40px;
+}
+
+
+.section-coll .tovar .pol{
+position: relative;
+height: 300px;
+width: 300px;
+
+}
+
+
+.section-coll .soap .plus{
+    height: 35px;
+    width: 35px;
+    opacity: 0.5;
+    display: flex;
+    position: relative;
+    left: 25px;  
+}
+
+
+.section-coll .soap .strela{
+    opacity: 0.5;
+    position: relative;
+    top: 150px;
+    right: 20px;
+    height: 30px;
+    width: 30px;
+
+}
+
+
+.section-ist{
+    height: 1000px;   
+}
+
+
+.section-ist .container{
+    position: relative;
+    left:0px;
+    
+}
+
+
+.section-ist img{
+    height: 100px;
+    width: 100px;
+    border-radius:50%;
+    opacity: 90%;
+}
+
+
+.section-ist .photka{
+    display: flex;
+    gap: 25px;
+    position: relative;
+    top: 50px;
+}
+
+
+.section-ist .photka p{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 35px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 30px;
+    
+}
+
+
+.section-ist .photka .mila{
+    display: flex;
+    text-decoration:underline;
+    font-family: "Montserrat";
+    gap: 10px;
+}
+
+
+.section-ist .text-mila p{
+    font-size: 15px;
+}
+
+
+.section-ist .container{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+
+.section-ist .line{
+    display: flex;
+    justify-content: start;
+    height: 1.5px;
+    width: 60px;
+    font-size: 2px; 
+    background-color: rgb(97, 82, 72); 
+    margin-top: 15px;
+}
+
+
+.section-ist .zagolovok-2{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    font-size: 30px;
+}
+
+
+.section-ist h3{
+    display: flex;
+   font-size: 20px;
+   color: rgb(97, 82, 72);   
+   font-weight: 500;
+   text-transform: uppercase;
+}
+
+
+ .section-ist .opisanie{
+    font-family: "Corm"; 
+    position: relative;
+    bottom: 50px;
+    color: rgb(97, 82, 72); 
+    width: 1100px;
+}
+
+
+.section-ist .opisanie p{
+    width: 720px;
+    font-size: 25px;
+}
+
+
+.section-ist .opisanie h2{
+   font-family: "Corm"; 
+   font-size: 50px;
+   color: rgb(97, 82, 72); 
+   font-weight: 500;
+   margin-bottom: 20px;
+}
+
+
+.section-ist .container{
+    display: flex;
+    justify-content: start;
+    position: relative;
+    right: 100px;
+    top: 100px;
+}
+
+
+.section-ist .kartinke .vtoraya{
+height: 200px;
+width: 200px;
+border-radius: 0%;
+position: relative;
+top: 400px;
+right: 250px;
+
+}
+
+
+.section-ist .kartinke .pervaia{
+height: 550px;
+width: 400px;
+border-radius: 0%;  
+position: relative;
+right: 250px; 
+bottom: 40px;
+}
+
+
+.section-ist .kartinke {
+display: flex;  
+flex-direction: row-reverse;
+justify-content: space-between;
+gap: 30px;
+position: relative;
+right: 350px;
+}
+
+
+.section-ist .kartinke .rose{
+opacity: 2; 
+height: 600px;
+width: 200px;
+position: relative;
+left: 550px;
+}
+
+
+.section-plus{
+    height: 400px;
+}
+.section-plus .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px;
+    width: 1000px;
+    gap: 80px;
+    
+}
+
+
+.section-plus .container .cell{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 340px;
+    color: rgb(97, 82, 72); 
+}
+.section-plus .cell img{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: end;
+    position: relative;
+    left: 120px;
+    
+}
+
+
+.section-plus .container .cell .textik{
+    font-family: "Corm";
+    font-size: 22px;
+}
+
+
+
+
+
+.section-svet{
+    position: relative;
+    height: 600px;
+}
+
+
+
+
+.section-svet .container{
+
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 1000px;
+}
+
+
+
+
+
+
+
+.section-svet .photo{
+    height: 300px;
+    width: 45%;
+    background-image: url(../../assets/img/13.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+    
+}
+
+
+
+.bacg-text{
+    position: absolute;
+    top: 0;
+    bottom: 50px;
+    right: 0;
+    left: 170px;
+    height: 460px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    font-size: 100px;
+    color: rgba(97, 82, 72, 0.678);
+    font-family: "Corm";
+    
+}
+.bacg-text pre{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 460px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    font-size: 100px;
+    color: rgba(97, 82, 72, 0.678);
+    font-family: "Corm";
+    
+}
+
+
+.text-up{
+    font-family: "Montserrat";
+    color:  rgb(255, 255, 255);
+    font-weight: 350;
+    font-size: 22px; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+
+}
+
+
+.section-svet .photo a{
+    font-family: "Montserrat";
+    color:  rgb(255, 255, 255); 
+    font-size: 20px;
+    border: 1.5px solid white;
+    padding: 6px;
+    width: 105px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 20px;
+   
+    
+}
+
+
+.section-svet .container .zakaz:hover{
+    color: rgb(71, 15, 15);    
+    border:1.5px solid black; 
+} 
+
+
+.section-katalog{
+    margin-top: 130px;
+    height: 600px;
+}
+
+
+.section-katalog .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 60px;
+    position: relative;
+    right: 50px;
+}
+
+
+.section-katalog .insta{
+ display: flex;
+ justify-content: center;
+ gap: 10px; 
+ font-family: "Montserrat";  
+ margin-left: 200px;
+
+}
+
+
+.section-katalog .podcherk{
+    text-decoration: underline;  
+    font-size: 23px; 
+}
+
+
+.section-katalog .container img{
+   position: relative;
+   left: 100px;
+    height: 200px;
+    width: 200px;
+}
+
+
+.section-katalog .insta p{
+
+
+    font-family: "Montserrat";
+    color: rgba(97, 82, 72, 0.815);
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 18px;
+} 
+
+
+.section-auth{
+    background-image: url(/assets/img/19.jpg);
+    height: 500px;
+}
+
+
+.section-auth .care h2{
+    font-family: "Corm";
+    color: rgba(97, 82, 72, 0.904);
+    font-size: 50px; 
+}
+
+
+.section-auth .care p{
+    font-family: "Corm";
+    color: rgba(97, 82, 72, 0.822);
+    font-size: 22px; 
+    margin-top:10px ;
+}
+
+
+.section-auth .care{
+    width: 750px;
+}
+
+
+.section-auth .auth{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    color: rgba(97, 82, 72, 0.986);  
+    gap: 30px;
+      
+}
+.section-auth .auth .name, .phone{
+ font-size: 20px;
+ background-color: rgba(245, 245, 220, 0);
+ color: rgba(97, 82, 72, 0.979); 
+ border-bottom: solid 2px ; 
+}
+.section-auth .acc{
+display: flex;
+gap: 10px;
+color: rgba(97, 82, 72, 0.979);  
+}
+
+
+
+.section-auth a{
+    font-family: "Montserrat";
+    color: rgba(97, 82, 72, 0.979);
+    font-size: 20px;
+    border: 1.5px solid rgba(97, 82, 72, 0.979);
+    padding: 6px;
+    width: 150px;
+    height: 110px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 200px;
+    top: 50px;
+
+}
+
+
+.section-auth a:hover{
+    color: black;    
+    border:1.5px solid black; 
+} 
+
+
+footer{
+    background-image: url(../../assets/img/20.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+}
+
+
+.section-kon .container{
+    width: 1100px;
+}
+
+
+.section-kon .milo{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.section-kon h3{
+    font-family: 'Times New Roman', Times, serif;
+    color: beige;
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+
+.section-kon p{
+    font-family: "Montserrat";
+    color: rgba(245, 245, 220, 0.589);
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+.section-kon .adress{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(245, 245, 220, 0.589);
+    font-weight: 300;
+    position: relative;
+    top: 80px;
+}
+
+
+.section-kon .pod{
+    font-size: 10px; 
+}
+
+
+
+
+.section-kon  .vk, .ytu, .social .inst1{
+    border: 1.5px solid rgba(245, 245, 220, 0.589);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    padding: 6px;
+}
+
+
+.section-kon .social{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    top: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
